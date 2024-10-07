@@ -7,7 +7,7 @@ const CustomizedContainer = () => {
   const MyContainer = ({ className, children }) => {
     return (
       <div style={{ padding: "16px", background: "#216ba5", color: "#fff" }}>
-        {/* className is the class .react-datepicker passed by datepicker under the hood when we pass MyCalendar */}
+        {/* className is the class .react-datepicker passed by datepicker under the hood */}
         <div className={className}>
           <div style={{ background: "#f0f0f0" }}>
             What is your favorite day?
