@@ -40,3 +40,9 @@ a {
   padding: 10px;
   border: 1px solid red;
 }
+
+.custom-input {
+  background-color: blueviolet;
+  padding: 10px;
+  border: 1px solid red;
+}

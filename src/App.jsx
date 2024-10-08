@@ -7,11 +7,13 @@ import CustomHeaderTwoMonths from "./components/CustomHeaderTwoMonths";
 import CustomDay from "./components/CustomDay";
 import CustomMonth from "./components/CustomMonth";
 import CustomCalendarClassName from "./components/CustomCalendarClassName";
+import CustomClassName from "./components/CustomClassName";
 
 export default function App() {
   return (
     <div id="App">
-      <CustomCalendarClassName />
+      <CustomClassName />
+      {/* <CustomCalendarClassName /> */}
       {/* <CustomDay />
       <CustomMonth /> */}
       {/* <CustomizedContainer /> */}
