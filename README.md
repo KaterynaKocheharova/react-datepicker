@@ -1,1 +1,1 @@
-Just a repo to research react datepicker library
+Just a repo to practice react datepicker library
