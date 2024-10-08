@@ -1,7 +1,7 @@
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
-// Allows to choose months and years separately
+// Allows to choose months and years separately. First, we choose a year, then we choose the month for this year
 
 const CustomMonth = () => {
   const renderMonthContent = (month, shortMonth, longMonth, day) => {

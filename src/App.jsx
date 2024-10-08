@@ -6,12 +6,14 @@ import CustomHeader from "./components/CustomHeader";
 import CustomHeaderTwoMonths from "./components/CustomHeaderTwoMonths";
 import CustomDay from "./components/CustomDay";
 import CustomMonth from "./components/CustomMonth";
+import CustomCalendarClassName from "./components/CustomCalendarClassName";
 
 export default function App() {
   return (
     <div id="App">
-      <CustomDay />
-      <CustomMonth />
+      <CustomCalendarClassName />
+      {/* <CustomDay />
+      <CustomMonth /> */}
       {/* <CustomizedContainer /> */}
       {/* <DatepickerChildren /> */}
       {/* <DatepickerWithClearInputButton /> */}
