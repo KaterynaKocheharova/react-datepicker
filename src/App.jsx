@@ -13,7 +13,7 @@ export default function App() {
       {/* <DatepickerWithClearInputButton /> */}
       {/* <CustomInput /> */}
       {/* <CustomHeader /> */}
-      <CustomHeaderTwoMonths />
+      {/* <CustomHeaderTwoMonths /> */}
     </div>
   );
 }
