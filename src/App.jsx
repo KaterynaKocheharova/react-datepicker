@@ -10,6 +10,12 @@ import CustomCalendarClassName from "./components/CustomCalendarClassName";
 import CustomClassName from "./components/CustomClassName";
 
 export default function App() {
+  // STYLIZATION OPTIONS
+
+  // explore devtools and overrite styles of already existing classes
+  // use custom elements render functions
+  // use custom classes props for some elements where it's possible
+  
   return (
     <div id="App">
       <CustomClassName />
