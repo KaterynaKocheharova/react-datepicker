@@ -4,10 +4,12 @@ import DatepickerWithClearInputButton from "./components/DatepickerWithClearInpu
 import CustomInput from "./components/CustomInput";
 import CustomHeader from "./components/CustomHeader";
 import CustomHeaderTwoMonths from "./components/CustomHeaderTwoMonths";
+import CustomDay from "./components/CustomDay";
 
 export default function App() {
   return (
     <div id="App">
+      <CustomDay />
       {/* <CustomizedContainer /> */}
       {/* <DatepickerChildren /> */}
       {/* <DatepickerWithClearInputButton /> */}
