@@ -4,7 +4,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 // the customized part is the top part of the header where we choose months and years
 // it's important to add all elements of the top manually if using CustomHeader, otherwise we won't get the default datepicker elements and the space they
-// were supposed to take will be empty
+// were supposed to take will not have any default elements
 // with custom header I can generate the appropriate range of years and months and style the top part quite flexibly
 
 const range = (start, end, step) => {
